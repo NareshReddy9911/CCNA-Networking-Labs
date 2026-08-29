@@ -1,0 +1,28 @@
+Routing Table Verification
+==========================
+
+OSPF was verified using:
+
+show ip route
+show ip route ospf
+
+Expected OSPF-learned networks:
+
+Area 1:
+10.0.0.0/24
+192.168.1.0/24
+192.168.2.0/24
+
+Area 0:
+192.168.3.0/24
+192.168.6.0/24
+
+Area 2:
+192.168.4.0/24
+192.168.5.0/24
+11.0.0.0/24
+
+Inter-area routes are identified with the OSPF IA code.
+
+Result:
+OSPF successfully learned remote networks across the multiple areas.

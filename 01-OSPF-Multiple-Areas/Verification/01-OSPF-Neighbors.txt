@@ -1,0 +1,41 @@
+OSPF Neighbor Verification
+==========================
+
+Router 1:
+show ip ospf neighbor
+- Neighbor 2.2.2.2
+- Neighbor 5.5.5.5
+- State: FULL
+
+Router 2:
+show ip ospf neighbor
+- Neighbor 1.1.1.1
+- Neighbor 3.3.3.3
+- State: FULL
+
+Router 3:
+show ip ospf neighbor
+- Neighbor 2.2.2.2
+- Neighbor 4.4.4.4
+- State: FULL
+
+Router 4:
+show ip ospf neighbor
+- Neighbor 6.6.6.6
+- Neighbor 3.3.3.3
+- State: FULL
+
+Router 5:
+show ip ospf neighbor
+- Neighbor 1.1.1.1
+- Neighbor 6.6.6.6
+- State: FULL
+
+Router 6:
+show ip ospf neighbor
+- Neighbor 5.5.5.5
+- Neighbor 4.4.4.4
+- State: FULL
+
+Result:
+OSPF adjacencies successfully established between all connected routers.

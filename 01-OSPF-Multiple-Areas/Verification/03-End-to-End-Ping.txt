@@ -1,0 +1,22 @@
+End-to-End Connectivity Verification
+=====================================
+
+VPC9:
+IP Address: 10.0.0.10
+Gateway: 10.0.0.1
+
+VPC10:
+IP Address: 11.0.0.10
+Gateway: 11.0.0.4
+
+Test 1:
+VPC9 -> 11.0.0.10
+Result: SUCCESS
+
+Test 2:
+VPC10 -> 10.0.0.10
+Result: SUCCESS
+
+Result:
+End-to-end connectivity was successfully verified between
+the Area 1 and Area 2 networks through the OSPF multi-area topology.
