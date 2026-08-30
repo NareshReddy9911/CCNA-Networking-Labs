@@ -1,0 +1,26 @@
+Routing Table Verification
+
+Command used:
+show ip route
+
+OSPF routes were successfully learned on the routers.
+
+Router 1:
+192.168.10.4/32 learned through OSPF via 10.0.0.4
+
+Router 2:
+192.168.1.0/24 learned through OSPF via 10.0.0.1
+192.168.10.4/32 learned through OSPF via 10.0.0.4
+
+Router 3:
+192.168.1.0/24 learned through OSPF via 10.0.0.1
+192.168.10.4/32 learned through OSPF via 10.0.0.4
+
+Router 4:
+192.168.1.0/24 learned through OSPF via 10.0.0.1
+
+Router 5:
+192.168.1.0/24 learned through OSPF via 10.0.0.1
+192.168.10.4/32 learned through OSPF via 10.0.0.4
+
+The OSPF routes are identified by the "O" routing code.

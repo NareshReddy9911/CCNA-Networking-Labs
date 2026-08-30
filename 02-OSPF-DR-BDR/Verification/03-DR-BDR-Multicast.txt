@@ -1,0 +1,17 @@
+DR/BDR Multicast Verification
+
+Wireshark was used to observe OSPF traffic on the broadcast network.
+
+Observed OSPF multicast addresses:
+
+224.0.0.5
+All OSPF routers
+
+224.0.0.6
+All OSPF designated routers
+
+During the test, OSPF LS Update traffic was observed from the routers.
+
+The capture shows traffic sent to 224.0.0.6 and OSPF traffic distributed through 224.0.0.5.
+
+This confirms the use of OSPF multicast communication for DR/BDR operation.

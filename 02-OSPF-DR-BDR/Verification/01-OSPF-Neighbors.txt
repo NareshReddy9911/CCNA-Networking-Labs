@@ -1,0 +1,39 @@
+OSPF Neighbor Verification
+
+Command used:
+show ip ospf neighbor
+
+Result:
+
+Router 1
+- 2.2.2.2 - FULL/DROTHER
+- 3.3.3.3 - FULL/DROTHER
+- 4.4.4.4 - FULL/BDR
+- 5.5.5.5 - FULL/DR
+
+Router 2
+- 1.1.1.1 - 2WAY/DROTHER
+- 3.3.3.3 - 2WAY/DROTHER
+- 4.4.4.4 - FULL/BDR
+- 5.5.5.5 - FULL/DR
+
+Router 3
+- 1.1.1.1 - 2WAY/DROTHER
+- 2.2.2.2 - 2WAY/DROTHER
+- 4.4.4.4 - FULL/BDR
+- 5.5.5.5 - FULL/DR
+
+Router 4
+- 1.1.1.1 - FULL/DROTHER
+- 2.2.2.2 - FULL/DROTHER
+- 3.3.3.3 - FULL/DROTHER
+- 5.5.5.5 - FULL/DR
+
+Router 5
+- 1.1.1.1 - FULL/DROTHER
+- 2.2.2.2 - FULL/DROTHER
+- 3.3.3.3 - FULL/DROTHER
+- 4.4.4.4 - FULL/BDR
+
+DR: Router 5 (5.5.5.5)
+BDR: Router 4 (4.4.4.4)

@@ -1,0 +1,14 @@
+enable
+configure terminal
+hostname Router_3
+
+interface g0/0
+ip address 10.0.0.3 255.255.255.0
+no shutdown
+
+router ospf 3
+router-id 3.3.3.3
+network 10.0.0.0 0.0.0.255 area 0
+
+end
+write memory

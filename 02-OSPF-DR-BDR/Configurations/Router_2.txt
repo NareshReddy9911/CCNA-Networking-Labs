@@ -1,0 +1,14 @@
+enable
+configure terminal
+hostname Router_2
+
+interface g0/0
+ip address 10.0.0.2 255.255.255.0
+no shutdown
+
+router ospf 2
+router-id 2.2.2.2
+network 10.0.0.0 0.0.0.255 area 0
+
+end
+write memory
